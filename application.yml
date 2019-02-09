@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev     #development enviroment
+  application:
+    name: microservicecloud-config-hjs-dev
+---
+spring:
+  profiles: test    #test enviroment
+  application:
+    name: microservicecloud-config-hjs-test
+
+#Please make it saved as UTF-8
